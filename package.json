@@ -1,0 +1,26 @@
+{
+  "name": "conjur-puzzle-01",
+  "version": "1.0.0",
+  "description": "Fun with Russian Caesar ciphers!",
+  "main": "index.js",
+  "scripts": {
+    "conjur01": "node ./index.js",
+    "test": "mocha './test/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/randyej/ConjurPuzzle01"
+  },
+  "author": "Randy Johnson",
+  "license": "ISC",
+  "bin": {
+    "conjur01": "./index.js"
+  },
+  "dependencies": {
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
